@@ -94,7 +94,7 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{
-    id: number;
+    id: string;
   }>;
 }): Promise<Metadata> {
   const { id } = await params;
